@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  padding: 0px 56.279px 0px 55px;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+  position: fixed;
+  .close-menu {
+    width: 100px;
+    position: absolute;
+    right: 55px;
+    top: 10px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+  }
+
+  .linne {
+    // transform: rotate(90deg);
+    position: relative;
+    cursor: pointer;
+  }
+  .up-line {
+    width: 1.793px;
+    height: 47.197px;
+    background: #000;
+    display: block;
+    mix-blend-mode: difference;
+  }
+  .downn-line {
+    width: 1.793px;
+    height: 47.197px;
+    background: #000;
+    display: block;
+    mix-blend-mode: difference;
+  }
+
+  .menu-ul {
+    gap: 21.761px;
+    transform: translateX(100%);
+    opacity: 0;
+
+    overflow: hidden;
+  }
+
+  .items {
+    text-align: right;
+    font-family: Almarai;
+    font-size: 15.008px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.011px;
+  }
+}

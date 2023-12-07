@@ -1,0 +1,40 @@
+.home-hero {
+  padding: 150px 56.279px 0px 55px;
+}
+
+.home-hero-heading {
+  color: #100e0e;
+  font-family: Almarai;
+  font-size: 89px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 70%;
+}
+
+.home-hero-video {
+  width: 100%;
+  background: #eff1f1;
+  height: 1120.5px;
+}
+
+.menu-card {
+  position: fixed;
+  // bottom: 10%;
+  top: 30%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+}
+.line-menu {
+  width: 29px;
+  height: 0.75px;
+  background: #100e0e;
+}

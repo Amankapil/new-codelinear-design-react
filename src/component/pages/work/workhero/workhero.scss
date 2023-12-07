@@ -1,0 +1,32 @@
+.workhero {
+  padding: 0 55px;
+  height: 100vh;
+  // overflow: hidden;
+}
+.bullet-container {
+  height: 100vh;
+}
+.workhero-left {
+  overflow: hidden;
+  height: 100vh;
+  z-index: 1;
+  top: 0;
+}
+.workhero-right {
+  overflow: hidden;
+  height: 100vh;
+  z-index: -1;
+  right: 10%;
+}
+.main-hero {
+  h1 {
+    color: #100e0e;
+    font-family: Almarai;
+    font-size: 206.377px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    // mix-blend-mode: difference;
+  }
+}

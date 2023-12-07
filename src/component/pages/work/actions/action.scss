@@ -1,0 +1,33 @@
+.action {
+  padding: 55px;
+}
+
+.head-action {
+  h1 {
+    color: #100e0e;
+    font-family: Almarai;
+    font-size: 89px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 90%;
+  }
+}
+
+.main-work-card {
+  gap: 0 150px;
+
+  .card-one-work {
+    p {
+      color: #000;
+      //   leading-trim: both;
+      //   text-edge: cap;
+      font-family: Sora;
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 28.5px */
+    }
+  }
+}

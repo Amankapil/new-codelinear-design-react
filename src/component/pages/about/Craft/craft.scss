@@ -1,0 +1,55 @@
+.craft {
+  padding: 100px 55px;
+//   background: conic-gradient(from 171deg at 69.79% 52.19%, #87A3B2 25.08894592523575deg, #436272 332.0570683479309deg);
+height: 100%;
+}
+
+
+
+.craft-heading {
+  h1 {
+    color: #100e0e;
+    font-family: Almarai;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+}
+
+.ideal {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  width: 410px;
+
+  h1 {
+    color: #100e0e;
+    font-family: Almarai;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  p {
+    color: #100e0e;
+    font-family: Sora;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+}
+
+.ideal {
+  img {
+    width: 674px;
+    height: 655px;
+  }
+}
+
+.impactt {
+  width: 674px !important;
+}

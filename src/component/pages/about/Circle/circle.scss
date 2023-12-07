@@ -1,0 +1,50 @@
+.intersect {
+  width: 212px;
+  position: absolute;
+  opacity: 0;
+  /* transition: opacity 1s forwards; */
+  /* transition: opacity; */
+  /* transition-delay: 0.5s; */
+  /* transition-property: ; */
+  /* transform-style: ; */
+  /* transform-style: ; */
+}
+
+.circles-animation:hover .intersect {
+  opacity: 1;
+}
+.arrowanimate {
+  position: relative;
+  left: 210px;
+  bottom: 60px;
+  opacity: 0;
+}
+.circle11 {
+  width: 212px;
+  height: 212px;
+  border-radius: 100%;
+  border: 1px solid #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 1;
+}
+.circle20 {
+  width: 212px;
+  height: 212px;
+  border-radius: 100%;
+  border: 1px solid #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;
+}
+.circles-animation {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+  margin: 150px 0 120px 0;
+}

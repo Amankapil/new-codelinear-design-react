@@ -1,0 +1,49 @@
+.home-about {
+  flex-direction: column;
+
+  // background: conic-gradient(
+  //   from 174deg at 44.4% 50%,
+  //   #d4a381 43.31266522407532deg,
+  //   #46200d 360deg
+  // );
+
+  padding: 100px 56.279px 100px 55px;
+}
+
+.head-about h1 {
+  color: #100e0e;
+  font-family: Almarai;
+  font-size: 89px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about-pera-home {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  p {
+    color: #000;
+    font-family: Sora;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    width: 410.894px;
+    height: 100%;
+    flex-shrink: 0;
+  }
+}
+
+.btn-about-home {
+  width: 150.75px;
+  height: 100%;
+  flex-shrink: 0;
+
+  .circle {
+    right: 20px;
+  }
+}
